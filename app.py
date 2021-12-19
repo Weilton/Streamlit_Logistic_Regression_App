@@ -1,4 +1,4 @@
-# Deploy de Aplicações Preditivas com Streamlit
+# Deploying Predictive Applications with Streamlit
 
 # Imports
 import time
