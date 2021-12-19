@@ -18,7 +18,7 @@ st.write("** Deploy Machine Learning Models **")
 st.write("** Logistic Regression **")
 
 # SideBar
-st.sidebar.header("Dataset end Hiperparameters")
+st.sidebar.header("Dataset and Hiperparameters")
 st.sidebar.markdown("""**Select the Dataset**""")
 Dataset = st.sidebar.selectbox("Dataset", ("Iris", "Wine", "Breast Cancer"))
 Split = st.sidebar.slider("Select the Percent of Data train/test for the Model - (default = 70/30)", 0.2, 0.8, 0.70)
